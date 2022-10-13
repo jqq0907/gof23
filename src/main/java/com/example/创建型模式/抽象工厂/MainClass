@@ -1,0 +1,10 @@
+package com.example.创建型模式.抽象工厂;
+
+public class MainClass {
+    public static void main(String[] args){
+        ConcreteFactory1 concreteFactory1 = new ConcreteFactory1();
+        AbstractProductA productA1 = concreteFactory1.createProductA();
+        ConcreteFactory2 concreteFactory2 = new ConcreteFactory2();
+        AbstractProductA productA2 = concreteFactory2.createProductA();
+    }
+}
