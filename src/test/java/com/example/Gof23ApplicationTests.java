@@ -7,5 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Gof23ApplicationTests {
 	@Test
 	void contextLoads() {
+      
 	}
 }
